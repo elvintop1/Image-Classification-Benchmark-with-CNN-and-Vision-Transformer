@@ -1,0 +1,13 @@
+query_id,question,num_relevant,first_hit_rank,recall@1,precision@1,hit@1,recall@3,precision@3,hit@3,recall@5,precision@5,hit@5,recall@10,precision@10,hit@10,mrr@10,map@10,ndcg@10
+q1,Which algorithm finds shortest paths in an unweighted graph using a queue?,1,1,1.0,1.0,1.0,1.0,0.3333333333333333,1.0,1.0,0.2,1.0,1.0,0.1,1.0,1.0,1.0,1.0
+q2,What causes a page fault in virtual memory?,1,1,1.0,1.0,1.0,1.0,0.3333333333333333,1.0,1.0,0.2,1.0,1.0,0.1,1.0,1.0,1.0,1.0
+q3,Which scheduling policy uses a time quantum to rotate CPU access?,1,1,1.0,1.0,1.0,1.0,0.3333333333333333,1.0,1.0,0.2,1.0,1.0,0.1,1.0,1.0,1.0,1.0
+q4,What does third normal form remove from a relational schema?,1,1,1.0,1.0,1.0,1.0,0.3333333333333333,1.0,1.0,0.2,1.0,1.0,0.1,1.0,1.0,1.0,1.0
+q5,Which index structure links leaf nodes for efficient range queries?,1,1,1.0,1.0,1.0,1.0,0.3333333333333333,1.0,1.0,0.2,1.0,1.0,0.1,1.0,1.0,1.0,1.0
+q6,How can we describe underfitting and overfitting using bias and variance?,1,1,1.0,1.0,1.0,1.0,0.3333333333333333,1.0,1.0,0.2,1.0,1.0,0.1,1.0,1.0,1.0,1.0
+q7,Which procedure computes neural-network gradients with the chain rule?,1,1,1.0,1.0,1.0,1.0,0.3333333333333333,1.0,1.0,0.2,1.0,1.0,0.1,1.0,1.0,1.0,1.0
+q8,What mechanism helps transformer models capture token interactions across a sequence?,1,1,1.0,1.0,1.0,1.0,0.3333333333333333,1.0,1.0,0.2,1.0,1.0,0.1,1.0,1.0,1.0,1.0
+q9,Which subword method repeatedly merges frequent symbol pairs?,1,1,1.0,1.0,1.0,1.0,0.3333333333333333,1.0,1.0,0.2,1.0,1.0,0.1,1.0,1.0,1.0,1.0
+q10,Which transport protocol uses acknowledgments and retransmission for reliability?,1,1,1.0,1.0,1.0,1.0,0.3333333333333333,1.0,1.0,0.2,1.0,1.0,0.1,1.0,1.0,1.0,1.0
+q11,Which testing practice checks small components in isolation?,1,1,1.0,1.0,1.0,1.0,0.3333333333333333,1.0,1.0,0.2,1.0,1.0,0.1,1.0,1.0,1.0,1.0
+q12,Which shortest-path algorithm requires nonnegative edge weights and a priority queue?,1,1,1.0,1.0,1.0,1.0,0.3333333333333333,1.0,1.0,0.2,1.0,1.0,0.1,1.0,1.0,1.0,1.0

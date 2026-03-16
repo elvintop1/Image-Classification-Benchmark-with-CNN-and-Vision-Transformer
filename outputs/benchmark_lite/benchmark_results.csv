@@ -1,0 +1,4 @@
+experiment,num_relevant,first_hit_rank,recall@1,precision@1,hit@1,recall@3,precision@3,hit@3,recall@5,precision@5,hit@5,recall@10,precision@10,hit@10,mrr@10,map@10,ndcg@10,output_dir
+bm25,1.0,1.0,1.0,1.0,1.0,1.0,0.3333333333333333,1.0,1.0,0.20000000000000004,1.0,1.0,0.10000000000000002,1.0,1.0,1.0,1.0,outputs/benchmark_lite/bm25
+tfidf,1.0,1.0,1.0,1.0,1.0,1.0,0.3333333333333333,1.0,1.0,0.20000000000000004,1.0,1.0,0.10000000000000002,1.0,1.0,1.0,1.0,outputs/benchmark_lite/tfidf
+hybrid_lexical,1.0,1.0,1.0,1.0,1.0,1.0,0.3333333333333333,1.0,1.0,0.20000000000000004,1.0,1.0,0.10000000000000002,1.0,1.0,1.0,1.0,outputs/benchmark_lite/hybrid_lexical

@@ -1,0 +1,12 @@
+data:
+  corpus_path: data/sample_course_docs.jsonl
+  queries_path: data/sample_queries.jsonl
+retriever:
+  name: dense
+  params:
+    model_name: sentence-transformers/all-MiniLM-L6-v2
+    batch_size: 16
+    normalize_embeddings: true
+top_k: 10
+metrics_ks: [1, 3, 5, 10]
+output_dir: outputs/dense_minilm

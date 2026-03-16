@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "course-doc-qa-retrieval"
+version = "0.1.0"
+description = "Retrieval and reranking benchmark for course-document QA"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "OpenAI"}]
+dependencies = []
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

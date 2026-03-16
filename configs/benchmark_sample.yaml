@@ -1,0 +1,14 @@
+output_dir: outputs/benchmark_sample
+experiments:
+  - name: bm25
+    config_path: bm25_baseline.yaml
+    output_subdir: bm25
+  - name: tfidf
+    config_path: tfidf_baseline.yaml
+    output_subdir: tfidf
+  - name: dense_minilm
+    config_path: dense_minilm.yaml
+    output_subdir: dense_minilm
+  - name: hybrid_rerank_minilm
+    config_path: hybrid_rerank_minilm.yaml
+    output_subdir: hybrid_rerank_minilm

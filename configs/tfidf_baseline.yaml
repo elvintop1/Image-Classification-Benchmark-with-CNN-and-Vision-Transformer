@@ -1,0 +1,11 @@
+data:
+  corpus_path: data/sample_course_docs.jsonl
+  queries_path: data/sample_queries.jsonl
+retriever:
+  name: tfidf
+  params:
+    ngram_range: [1, 2]
+    min_df: 1
+top_k: 10
+metrics_ks: [1, 3, 5, 10]
+output_dir: outputs/tfidf_baseline

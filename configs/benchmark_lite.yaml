@@ -1,0 +1,11 @@
+output_dir: outputs/benchmark_lite
+experiments:
+  - name: bm25
+    config_path: bm25_baseline.yaml
+    output_subdir: bm25
+  - name: tfidf
+    config_path: tfidf_baseline.yaml
+    output_subdir: tfidf
+  - name: hybrid_lexical
+    config_path: hybrid_lexical.yaml
+    output_subdir: hybrid_lexical
